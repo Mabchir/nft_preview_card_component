@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --font: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+  font-family: var(--font);
+  height: 100vh;
+}
+
+.card {
+  width: 350px;
+  height: 596px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.main-img {
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+}
+
+.card-body {
+  text-align: left;
+  margin: 24px;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 18px;
+}
+.updates {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 24px;
+}
+
+.eth {
+  display: flex;
+  align-items: center;
+}
+
+.deadline {
+  display: flex;
+  align-items: center;
+}
+.eth span {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 6.48px;
+}
+
+.deadline span {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-left: 6.48px;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+}
+
+.author-section {
+  display: flex;
+  align-items: center;
+}
+
+.author-section img {
+  width: 33px;
+  height: 33px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+.author {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 16px;
+}
+
+.author-name {
+  color: hsl(0, 0%, 100%);
+}
