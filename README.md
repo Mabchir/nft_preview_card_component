@@ -89,7 +89,7 @@ Users should be able to:
 
 ### Continued development
 
-- The active version 1 (hovering over the image) has a weird shaky affect, which I am not sure where it's coming. Maybe exploring the impact of the css visibility attribute would be helpful.
+- The active version 1 (hovering over the image) has a weird shaky affect, which I am not sure where it's coming from. Maybe exploring the impact of the CSS visibility attribute would be helpful.
 
 - Learning more ways of overlaying different components
 
