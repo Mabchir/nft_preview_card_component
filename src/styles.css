@@ -4,9 +4,15 @@
   --font: "Outfit", sans-serif;
 }
 
-body {
+body,
+.updates,
+.eth,
+.deadline,
+.author-section {
   display: flex;
   align-items: center;
+}
+body {
   justify-content: center;
   background-color: hsl(217, 54%, 11%);
   font-family: var(--font);
@@ -22,10 +28,33 @@ body {
   padding-top: 24px;
 }
 
+.container {
+  position: relative;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  margin-left: 24px;
+}
+
 .main-img {
   width: 302px;
   height: 302px;
   border-radius: 8px;
+}
+
+.rect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  background-color: #00fff8;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
 }
 
 .card-body {
@@ -45,21 +74,11 @@ body {
   font-size: 18px;
 }
 .updates {
-  display: flex;
   justify-content: space-between;
 
   margin-bottom: 24px;
 }
 
-.eth {
-  display: flex;
-  align-items: center;
-}
-
-.deadline {
-  display: flex;
-  align-items: center;
-}
 .eth span {
   color: hsl(178, 100%, 50%);
   font-weight: 600;
@@ -77,11 +96,6 @@ hr {
   color: hsl(215, 32%, 27%);
 }
 
-.author-section {
-  display: flex;
-  align-items: center;
-}
-
 .author-section img {
   width: 33px;
   height: 33px;
@@ -97,4 +111,13 @@ hr {
 
 .author-name {
   color: hsl(0, 0%, 100%);
+}
+
+.author-name:hover,
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.main-img:hover + .rect {
+  visibility: visible;
 }
