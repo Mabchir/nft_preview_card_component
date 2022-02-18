@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Mabchir/nft_preview_card_component)
-- Live Site URL: [](https://unruffled-brahmagupta-af01d0.netlify.app/)
+- Solution URL: [github](https://github.com/Mabchir/nft_preview_card_component)
+- Live Site URL: [netlify](https://unruffled-brahmagupta-af01d0.netlify.app/)
 
 ## My process
 
@@ -51,6 +51,8 @@ Users should be able to:
 - HTML
 - CSS custom properties
 - Flexbox
+
+### Steps
 
 - Set up the repository, live site and starter files
 - created a sketch of the different components I will be needing ![](./images/nft_sketch.png)
@@ -89,9 +91,9 @@ Users should be able to:
 
 ### Continued development
 
-- The active version 1 (hovering over the image) has a weird shaky affect, which I am not sure where it's coming from. Maybe exploring the impact of the CSS visibility attribute would be helpful.
+- The active version 1 (hovering over the image) has a weird shaky affect, which I am not sure where it's coming from. Maybe exploring the impact of the CSS visibility attribute would be helpful(fixed).
 
-- Learning more ways of overlaying different components
+- Learning more ways of overlaying different components.
 
 ### Useful resources
 
