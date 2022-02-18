@@ -28,6 +28,7 @@ a {
   border-radius: 15px;
   text-align: center;
   padding: 24px;
+  margin: 24px;
 }
 
 .container {
@@ -63,8 +64,8 @@ a {
   text-align: left;
 }
 
-.title {
-  color: hsl(0, 0%, 100%);
+.title a {
+  color: hsl(0, 0%, 100%) !important;
   font-weight: 600;
   font-size: 22px;
 }
